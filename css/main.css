@@ -1,0 +1,49 @@
+body {
+	font: 16px Helvetica;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.header {
+	border-top: 1px solid #555353;
+	border-bottom: 1px solid #555353;
+    background-color: cornflowerblue;
+	min-height: 54px;
+}
+
+.title {
+	font-size: 30px;
+	line-height: 54px;
+}
+
+.nav {
+	float: right;
+	line-height: 54px;
+}
+
+.link {
+	color: rgb(0, 0, 0);
+	line-height: 1.5;
+    margin-right: 20px;
+}
+
+.footer {
+	border-top: 1px solid #555353;
+	border-bottom: 1px solid #555353;
+	background-color: rgb(71, 129, 236);;
+	min-height: 54px;
+}
+
+.wrapper {
+	max-width: 50%;
+	max-width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
