@@ -1,3 +1,10 @@
+window.addEventListener("load", init);
+
+function init() {
+    var array = document.cookie.split("=");
+    document.getElementById("textField").value = array[1];
+}
+
 function alertButton() {
     //alert("Hello, world!");
     document.getElementById("textField").style.fontSize = "24pt";
@@ -43,4 +50,13 @@ function mooButton() {
     }
     input = parts.join(" ");
     document.getElementById("textField").value = input;
+}
+
+function saveText() {
+    var value = document.getElementById("textField").value;
+    document.cookie = "text=" + value;
+}
+
+function clearText() {
+    document.cookie = "text=";
 }
